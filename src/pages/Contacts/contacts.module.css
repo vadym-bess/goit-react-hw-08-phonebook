@@ -1,0 +1,22 @@
+.contactsThumb {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (min-width: 700px) {
+  .contactsThumb {
+    gap: 100px;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 900px) {
+  .contactsThumb {
+    gap: 230px;
+  }
+}

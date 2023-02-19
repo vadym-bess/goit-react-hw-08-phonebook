@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.navLink:hover,
+:active {
+  color: lightblue;
+}

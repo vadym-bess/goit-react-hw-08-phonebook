@@ -1,0 +1,22 @@
+.menuThumb {
+  font-weight: 500;
+  display: flex;
+  gap: 8px;
+}
+
+.menuText {
+  margin: 0;
+  align-self: center;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .menuText {
+    font-size: 12px;
+    width: 112px;
+  }
+}
+
+.menuSettingItem {
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blue;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 35px;
+  padding: 16px;
+}
